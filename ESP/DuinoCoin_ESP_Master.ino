@@ -40,14 +40,13 @@ const char* ssid          = "YOUR_SSID_WIFI";              // Change this to you
 const char* password      = "YOUR_PASSWORD_WIFI";          // Change this to your WiFi password
     //Set Static IP
     IPAddress local_IP(192, 168, 1, 3);
-    IPAddress gateway(192, 168, 1, 1);
+    IPAddress gateway(192, 168, 1, 2);
     IPAddress subnet(255, 255, 255, 0);
     IPAddress primaryDNS(1, 1, 1, 1);
     IPAddress secondaryDNS(1, 0, 0, 1);
 
 const char* ducouser      = "YOUR_USERNAME_DUINOCOIN";    // Change this to your Duino-Coin username
 const char* rigIdentifier = "ESP8266-I2C-0";              // Change this if you want a custom miner name
-
 
 void handleSystemEvents(void) {
   ArduinoOTA.handle();
@@ -101,7 +100,7 @@ void SetupOTA() {
 
 #if ESP8266
   char hostname[32];
-  sprintf(hostname, "ESP8266-I2C-0-%06x", ESP.getChipId());     // Change this if you want a custom miner name
+  sprintf(hostname, "ESP8266-I2C-%06x", ESP.getChipId());
   ArduinoOTA.setHostname(hostname);
 #endif
 
