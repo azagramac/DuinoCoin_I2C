@@ -1,6 +1,7 @@
 /*
   DuinoCoin_Clients.ino
   created 20/07/2021
+  by Luiz H. Cassettari
   Update: AzagraMac
 */
 
