@@ -1,8 +1,9 @@
 /*
   DuinoCoin_Clients.ino
-  created 20/07/2021
+  created 10/05/2021
   by Luiz H. Cassettari
-  Update: AzagraMac
+  Update by AzagraMac
+  Update: 20/07/2021
 */
 
 #if ESP8266
