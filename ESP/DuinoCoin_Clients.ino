@@ -17,7 +17,7 @@
 #include <WiFiClient.h>
 #endif
 
-#define CLIENTS 5                                                   // Define max clients, limit 10
+#define CLIENTS 5                                                   // Define max clients, limit 10, optimal 5
 
 #define END_TOKEN  '\n'
 #define SEP_TOKEN  ','
