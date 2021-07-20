@@ -1,5 +1,5 @@
 /*
-  DuinoCoin_ESP_Master.ino
+  DuinoCoin_ArduinoSlave.ino
   created 10/05/2021
   by Luiz H. Cassettari
 */
