@@ -33,3 +33,8 @@ Connect the pins of the ESP8266 or ESP32 on the Arduino (Uno/Nano) like the tabl
 * [DuinoCoin](https://github.com/ricaun/arduino-DuinoCoin) (Handle the `Ducos1a` hash work)
 * [ArduinoUniqueID](https://github.com/ricaun/ArduinoUniqueID) (Handle the chip ID)
 * [StreamJoin](https://github.com/ricaun/StreamJoin) (StreamString for AVR)
+
+# Install 
+
+* [Download Arduino IDE](https://www.arduino.cc/en/software)
+* Clone repo `git clone https://github.com/AzagraMac/DuinoCoin_I2C.git`
