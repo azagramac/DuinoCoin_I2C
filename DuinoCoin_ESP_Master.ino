@@ -101,7 +101,7 @@ void SetupOTA() {
 
 #if ESP8266
   char hostname[32];
-  sprintf(hostname, "ESP8266-I2C-0-%06x", ESP.getChipId());
+  sprintf(hostname, "ESP8266-I2C-0-%06x", ESP.getChipId());     // Change this if you want a custom miner name
   ArduinoOTA.setHostname(hostname);
 #endif
 
