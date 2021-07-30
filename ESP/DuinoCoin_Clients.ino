@@ -22,8 +22,8 @@
 #define END_TOKEN  '\n'
 #define SEP_TOKEN  ','
 
-const char * host = "51.15.127.80";                                 // Static server IP
-const int ports[] = {2812, 2817, 2816, 2815, 2814, 2813, 2811};     // Static server PORT
+const char * host = "server.duinocoin.com";                                 // Static server IP
+const int ports[] = {2813};     // Static server PORT
 
 WiFiClient clients[CLIENTS];
 byte clientsWaitJob[CLIENTS];
