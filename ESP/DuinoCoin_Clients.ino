@@ -23,7 +23,7 @@
 #define SEP_TOKEN  ','
 
 const char * host = "server.duinocoin.com";                                 // Static server IP
-const int ports[] = {2813};     // Static server PORT
+const int ports[] = {2811, 2812, 2813, 2814, 2815, 2816, 2817, 6000};     // Static server PORT
 
 WiFiClient clients[CLIENTS];
 byte clientsWaitJob[CLIENTS];
